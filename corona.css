@@ -1,0 +1,49 @@
+body{
+color: black;	
+}
+
+header{
+	background-image: url(corona.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 200px;
+}
+main{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	background-color: lightblue;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+p{
+	font-size: 16px;
+}
+
+img{
+	width: 300px;
+	height: 600px;
+	margin: 20px;
+	align-items: center;
+}
+
+.tolv{grid-column: span 12;}
+.fire{grid-column: span 4;}
+.atte{grid-column: span 8;}
+.ti{grid-column: span 10;}
+.en{grid-column: span 1;}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
