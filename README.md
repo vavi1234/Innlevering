@@ -1,0 +1,2 @@
+# smittestopp.github.io
+:)
